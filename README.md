@@ -22,9 +22,3 @@ Key features are as following:
 
 Here's a brief Architecture Diagram of our Project
 ![AD](https://res.cloudinary.com/dpcmfysrj/image/upload/v1707986936/ad2_tri9y1.jpg)
-
-## Authors
-
-- [Arghyadeep Sadhukhan (22JE0159)](https://www.github.com/arghyadeep04)
-- [Ankur Roy(22JE0131)](https://github.com/e4stw7nd)
-
