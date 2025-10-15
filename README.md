@@ -11,13 +11,12 @@ Key features are as following:
 
 
 ## Brief Implementation
-- The frontend is made with react and will run on localhost:3000. Voice will be recorded with help of react-audio-recorder and then converted to file and sent to a django backend server through post request [[Arghyadeep] and [Ayush]]
-- In the backend server the voice file will be converted int text [Ayanak]. The interpreted text will be sent to frontend and shown on screen to the user .
-- The interpreted text will be again sent to backend server and releveant OS tasks will be performed [Ankur] and a relevant completion/failure message will be generated and sent to frontend and displayed on screen .
+- The frontend is made with react and will run on localhost:3000. Voice will be recorded with help of react-audio-recorder and then converted to file and sent to a django backend server through post request.
+- In the backend server the voice file will be converted int text. The interpreted text will be sent to frontend and shown on screen to the user .
+- The interpreted text will be again sent to backend server and releveant OS tasks will be performed and a relevant completion/failure message will be generated and sent to frontend and displayed on screen .
 
 ## File manipulation Architecture
-- The ML Model will converted the audio to text message and store it in a temporarily file. A scheduler will be run which will run another program every 1s. The program will check for new entries in the temporary file and in case any new entry is found it will call respective binary for the operation and as soon as the modification in file system is made, the entries will be cleared from the file. After that a signal of success/failure will be sent to thefrontend. This manipulation and scheduling work will be done by [Ankur]
-
+- The ML Model will converted the audio to text message and store it in a temporarily file. A scheduler will be run which will run another program every 1s. The program will check for new entries in the temporary file and in case any new entry is found it will call respective binary for the operation and as soon as the modification in file system is made, the entries will be cleared from the file. After that a signal of success/failure will be sent to thefrontend.
 ## Architecture Diagram
 
 Here's a brief Architecture Diagram of our Project
